@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on ABigRookie Blog</title><link>https://abigrookie.github.io/posts/</link><description>Recent content in Posts on ABigRookie Blog</description><generator>Hugo -- 0.152.2</generator><language>zh-cn</language><lastBuildDate>Fri, 03 Nov 2023 14:41:08 +0000</lastBuildDate><atom:link href="https://abigrookie.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>论文查阅经验分享</title><link>https://abigrookie.github.io/posts/lun-wen-cha-yue-jing-yan-fen-xiang/</link><pubDate>Fri, 03 Nov 2023 14:41:08 +0000</pubDate><guid>https://abigrookie.github.io/posts/lun-wen-cha-yue-jing-yan-fen-xiang/</guid><description>&lt;h1 id="论文查阅经验分享"&gt;论文查阅经验分享&lt;/h1&gt;
+&lt;h2 id="论文等级分类"&gt;论文等级分类&lt;/h2&gt;
+&lt;p&gt;英文论文主要分为期刊论文和会议论文两类，接下来分别介绍这两类论文的等级：&lt;/p&gt;
+&lt;h3 id="期刊论文"&gt;期刊论文&lt;/h3&gt;
+&lt;p&gt;期刊论文主要根据中科院分区进行等级划分，分为一区、二区、三区、四区四类，以一区最优。&lt;/p&gt;
+&lt;p&gt;同时也可参考《中国计算机学会推荐国际学术会议和期刊目录》，即CCF分类。&lt;/p&gt;
+&lt;p&gt;针对期刊论文的等级查看方法主要推荐三种方法。&lt;/p&gt;
+&lt;h4 id="letpub查找"&gt;Letpub查找&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://www.letpub.com.cn/index.php?page=journalapp" title="https://www.letpub.com.cn/index.php?page=journalapp"&gt;https://www.letpub.com.cn/index.php?page=journalapp&lt;/a&gt;；&lt;/p&gt;
+&lt;p&gt;搜索方式：期刊名（填入期刊全称）→查询→下拉可以查看期刊信息；&lt;/p&gt;
+&lt;p&gt;判断指标：影响因子IF（越高越好）、中科院分区（以最新为主，旧版作参考）。&lt;/p&gt;
+&lt;h4 id="easyscholar谷歌插件"&gt;easyScholar谷歌插件&lt;/h4&gt;
+&lt;p&gt;安装方式：谷歌浏览器扩展程序→搜索easyScholar→安装→启用；&lt;/p&gt;
+&lt;p&gt;判断指标：免费版只支持中科院旧版分区和影响因子（可以作为快速参考）。&lt;/p&gt;
+&lt;h4 id="中国计算机学会推荐国际学术会议和期刊目录"&gt;《中国计算机学会推荐国际学术会议和期刊目录》&lt;/h4&gt;
+&lt;p&gt;判断指标：在《中国计算机学会推荐国际学术会议和期刊目录》中搜索期刊名，查看期刊分类&lt;/p&gt;
+&lt;h3 id="会议论文"&gt;会议论文&lt;/h3&gt;
+&lt;p&gt;会议论文主要根据《中国计算机学会推荐国际学术会议和期刊目录》，即CCF分类进行判断。&lt;/p&gt;
+&lt;p&gt;针对会议论文的等级查看方法主要推荐两种方法。&lt;/p&gt;
+&lt;h4 id="中国计算机学会推荐国际学术会议和期刊目录-1"&gt;《中国计算机学会推荐国际学术会议和期刊目录》&lt;/h4&gt;
+&lt;p&gt;判断指标：在《中国计算机学会推荐国际学术会议和期刊目录》中搜索会议名，查看会议分类&lt;/p&gt;
+&lt;h4 id="会伴查找"&gt;会伴查找&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://www.myhuiban.com/" title="https://www.myhuiban.com/"&gt;https://www.myhuiban.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;搜索方式：搜索框输入会议名→查询&lt;/p&gt;
+&lt;p&gt;判断指标：主要参考CCF评级&lt;/p&gt;
+&lt;h2 id="论文搜索方法"&gt;论文搜索方法&lt;/h2&gt;
+&lt;h3 id="英文论文"&gt;英文论文&lt;/h3&gt;
+&lt;p&gt;英文论文的搜索方法主要推荐四种方式：&lt;/p&gt;
+&lt;h4 id="webofscience"&gt;WebofScience&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://www.webofscience.com/wos/alldb/basic-search" title="https://www.webofscience.com/wos/alldb/basic-search"&gt;https://www.webofscience.com/wos/alldb/basic-search&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优点：可以根据关键词搜索论文并生成分析报告，适合对于某个领域的发展趋势进行快速调研&lt;/p&gt;
+&lt;h4 id="谷歌学术"&gt;谷歌学术&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://scholar.google.com/" title="https://scholar.google.com/"&gt;https://scholar.google.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优势：搜索范围广、支持关键词订阅&lt;/p&gt;
+&lt;h4 id="dblp"&gt;DBLP&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://dblp.uni-trier.de/" title="https://dblp.uni-trier.de/"&gt;https://dblp.uni-trier.de/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优势：支持对单个作者的所有工作罗列，方便跟进某个作者的工作&lt;/p&gt;
+&lt;h4 id="aminer"&gt;Aminer&lt;/h4&gt;
+&lt;p&gt;网址：&lt;a href="https://www.aminer.org/" title="https://www.aminer.org/"&gt;https://www.aminer.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;优势：翻译了论文摘要，方便快速过论文&lt;/p&gt;
+&lt;h3 id="中文论文"&gt;中文论文&lt;/h3&gt;
+&lt;p&gt;中文论文的搜索方法主要推荐知网、万方等数据库。&lt;/p&gt;</description></item><item><title>Gym用户自定义环境</title><link>https://abigrookie.github.io/posts/gym-yong-hu-zi-ding-yi-huan-jing/</link><pubDate>Wed, 23 Nov 2022 10:26:05 +0000</pubDate><guid>https://abigrookie.github.io/posts/gym-yong-hu-zi-ding-yi-huan-jing/</guid><description>&lt;p&gt;Gym官方教程：&lt;a href="'https://www.gymlibrary.dev/content/environment_creation/'"&gt;https://www.gymlibrary.dev/content/environment_creation/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="创建自定义环境工程"&gt;创建自定义环境工程&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;方法一：git clone gym-examples
+&lt;ul&gt;
+&lt;li&gt;从github上克隆Gym官方示例到本地进行自定义环境编写&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# git clone from gym-examples&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git clone https://github.com/Farama-Foundation/gym-examples
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd gym-examples
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;python -m venv .env
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source .env/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pip install -e .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;方法二：自建环境工程文件
+&lt;ul&gt;
+&lt;li&gt;自建环境工程文件，文件目录应如下（只列出必要文件）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;my-gym/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; setup.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; my_gym/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; __init__.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; envs/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; __init__.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; myenv.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; wrappers/
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; __init__.py
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; relative_position.py（不必须）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="设计环境"&gt;设计环境&lt;/h2&gt;
+&lt;p&gt;自定义环境通常只需关注myenv的编写，myenv.py文件的整体框架如下：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; gym
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; numpy &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; np
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; typing &lt;span style="color:#f92672"&gt;import&lt;/span&gt; Optional
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; torch
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; gym &lt;span style="color:#f92672"&gt;import&lt;/span&gt; spaces
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; math
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;class&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;MyEnv&lt;/span&gt;(gym&lt;span style="color:#f92672"&gt;.&lt;/span&gt;Env):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;__init__&lt;/span&gt;(self, args1, args2, &lt;span style="color:#f92672"&gt;...&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; super()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;__init__&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;args1 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;args2 &lt;span style="color:#f92672"&gt;=&lt;/span&gt; args2
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# define action space&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# gym doc:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# https://www.gymlibrary.dev/api/spaces/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;action_space &lt;span style="color:#f92672"&gt;=&lt;/span&gt; spaces&lt;span style="color:#f92672"&gt;.&lt;/span&gt;Discrete(ACTION_SPACE)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# define observation space&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;observation_space &lt;span style="color:#f92672"&gt;=&lt;/span&gt; spaces&lt;span style="color:#f92672"&gt;.&lt;/span&gt;Discrete(OBSERVATION_SPACE)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# not necessary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;_get_obs&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; obs
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# not necessary&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;_get_info&lt;/span&gt;(self):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; info
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;step&lt;/span&gt;(self, action):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# input the action and step to next state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# return the next_obs, reward, done and info&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; obs, reward, done, {}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;reset&lt;/span&gt;(self, seed&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;None&lt;/span&gt;, options&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;None&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# set ramdom seed if need&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; super()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;reset(seed&lt;span style="color:#f92672"&gt;=&lt;/span&gt;seed)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# reset the start observation and some parameters&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;state &lt;span style="color:#f92672"&gt;=&lt;/span&gt; START_STATE
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;paras1&lt;span style="color:#f92672"&gt;=&lt;/span&gt; PARAS1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;...&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# return the start observation and info&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; observation, info
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;render&lt;/span&gt;(self, mode&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;human&amp;#39;&lt;/span&gt;, close&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;False&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# render the environments&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# can simply print some infomation of your training process&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;Step:&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;count&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;State:&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;self&lt;span style="color:#f92672"&gt;.&lt;/span&gt;state&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="修改配置文件"&gt;修改配置文件&lt;/h2&gt;
+&lt;h3 id="注册环境"&gt;注册环境&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;为了保证Gym能够检测到用户自定义的环境，需要在/my-gym/my_gym/_&lt;em&gt;init&lt;/em&gt;_.py中对环境进行注册&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; gym.envs.registration &lt;span style="color:#f92672"&gt;import&lt;/span&gt; register
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;register(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# the id of your env, which can be used to during environment creation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; id&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;MyEnv&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# the entry point is the path of your env&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; entry_point&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;my_gym.envs:myenv&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# other parameters can be found at &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# https://www.gymlibrary.dev/content/environment_creation/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;同时在/my-gym/my_gym/envs/_&lt;em&gt;init&lt;/em&gt;_.py下需要如下设置&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; my_gym.envs.myenv &lt;span style="color:#f92672"&gt;import&lt;/span&gt; MyEnv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="创建包"&gt;创建包&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;最后一步将环境工程文件构建为一个python包，需要配置/my-gym/setup.py，简单示例如下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;from&lt;/span&gt; setuptools &lt;span style="color:#f92672"&gt;import&lt;/span&gt; setup
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;setup(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; name&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;my_gym&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; version&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;0.0.1&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; install_requires&lt;span style="color:#f92672"&gt;=&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#34;gym==0.26.0&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;pygame==2.1.0&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="安装包"&gt;安装包&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;在需要安装自定义环境的python环境下，通过pip安装自定义环境&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;pip install -e USER_DEFINE_ENV_PATH
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="加载环境"&gt;加载环境&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; my_gym
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; gym
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;env &lt;span style="color:#f92672"&gt;=&lt;/span&gt; gym&lt;span style="color:#f92672"&gt;.&lt;/span&gt;make(&lt;span style="color:#e6db74"&gt;&amp;#39;MyEnv&amp;#39;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;到此，一个简单的用户自定义环境就配置完成啦🎉🎉🎉&lt;/p&gt;</description></item><item><title>Git使用</title><link>https://abigrookie.github.io/posts/git-shi-yong/</link><pubDate>Sat, 19 Nov 2022 17:01:35 +0000</pubDate><guid>https://abigrookie.github.io/posts/git-shi-yong/</guid><description>&lt;h1 id="git"&gt;Git&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;fork项目同步&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1.clone&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git clone git@github.com:XXXX/XXXX.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2.remote(source repo)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git remote add upstream git@github.com:XXXX/XXXX.git
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# how to delete upstream&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git remote rm upstream
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3.change to master branch(check brance before checkout)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 4.fetch upstream&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git fetch upstream
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 5.merge branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git merge upstream/master
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 6.push to fork repo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;$ git push origin master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;项目上传&lt;/p&gt;</description></item><item><title>Hello Gridea</title><link>https://abigrookie.github.io/posts/hello-gridea/</link><pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate><guid>https://abigrookie.github.io/posts/hello-gridea/</guid><description>&lt;p&gt;👏 欢迎使用 &lt;strong&gt;Gridea&lt;/strong&gt; ！&lt;br&gt;
+✍️ &lt;strong&gt;Gridea&lt;/strong&gt; 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意&amp;hellip; &amp;hellip;&lt;/p&gt;
+&lt;!-- more --&gt;
+&lt;p&gt;&lt;a href="https://github.com/getgridea/gridea"&gt;Github&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://gridea.dev/"&gt;Gridea 主页&lt;/a&gt;&lt;br&gt;
+&lt;a href="https://fehey.com/"&gt;示例网站&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="特性"&gt;特性👇&lt;/h2&gt;
+&lt;p&gt;📝 你可以使用最酷的 &lt;strong&gt;Markdown&lt;/strong&gt; 语法，进行快速创作&lt;/p&gt;
+&lt;p&gt;🌉 你可以给文章配上精美的封面图和在文章任意位置插入图片&lt;/p&gt;
+&lt;p&gt;🏷️ 你可以对文章进行标签分组&lt;/p&gt;
+&lt;p&gt;📋 你可以自定义菜单，甚至可以创建外部链接菜单&lt;/p&gt;
+&lt;p&gt;💻 你可以在 &lt;strong&gt;Windows&lt;/strong&gt;，&lt;strong&gt;MacOS&lt;/strong&gt; 或 &lt;strong&gt;Linux&lt;/strong&gt; 设备上使用此客户端&lt;/p&gt;
+&lt;p&gt;🌎 你可以使用 &lt;strong&gt;𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌&lt;/strong&gt; 或 &lt;strong&gt;Coding Pages&lt;/strong&gt; 向世界展示，未来将支持更多平台&lt;/p&gt;
+&lt;p&gt;💬 你可以进行简单的配置，接入 &lt;a href="https://github.com/gitalk/gitalk"&gt;Gitalk&lt;/a&gt; 或 &lt;a href="https://github.com/SukkaW/DisqusJS"&gt;DisqusJS&lt;/a&gt; 评论系统&lt;/p&gt;
+&lt;p&gt;🇬🇧 你可以使用&lt;strong&gt;中文简体&lt;/strong&gt;或&lt;strong&gt;英语&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🌁 你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力&lt;/p&gt;
+&lt;p&gt;🖥 你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步&lt;/p&gt;
+&lt;p&gt;🌱 当然 &lt;strong&gt;Gridea&lt;/strong&gt; 还很年轻，有很多不足，但请相信，它会不停向前 🏃&lt;/p&gt;
+&lt;p&gt;未来，它一定会成为你离不开的伙伴&lt;/p&gt;
+&lt;p&gt;尽情发挥你的才华吧！&lt;/p&gt;
+&lt;p&gt;😘 Enjoy~&lt;/p&gt;</description></item><item><title/><link>https://abigrookie.github.io/posts/hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://abigrookie.github.io/posts/hello-world/</guid><description>&lt;h2 id="date-2024-10-31-000000"&gt;﻿&amp;mdash;
+title: Hello World
+date: 2024-10-31 00:00:00&lt;/h2&gt;
+&lt;p&gt;Welcome to your new Hexo blog! 这是默认示例文章，你可以在 &lt;code&gt;source/_posts/&lt;/code&gt; 目录中创建新的 Markdown 文件来撰写内容。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hexo new post &lt;span style="color:#e6db74"&gt;&amp;#34;My New Post&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;通过 &lt;code&gt;npm run serve&lt;/code&gt; 在本地预览&lt;/li&gt;
+&lt;li&gt;使用 &lt;code&gt;npm run build&lt;/code&gt; 生成静态页面&lt;/li&gt;
+&lt;li&gt;运行 &lt;code&gt;npm run deploy&lt;/code&gt; 推送到 GitHub Pages（需要在 &lt;code&gt;_config.yml&lt;/code&gt; 中正确配置仓库地址）&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://abigrookie.github.io/posts/zotero-shi-yong-bi-ji/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://abigrookie.github.io/posts/zotero-shi-yong-bi-ji/</guid><description>&lt;h2 id="date-2022-11-21-161302"&gt;﻿&amp;mdash;
+title: &amp;ldquo;Zotero浣跨敤绗旇&amp;rdquo;
+date: 2022-11-21 16:13:02&lt;/h2&gt;
+&lt;h2 id="鎻掍欢鎺ㄨ崘"&gt;鎻掍欢鎺ㄨ崘&lt;/h2&gt;
+&lt;p&gt;鎻掍欢瀹夎姝ラ锛?&lt;/p&gt;
+&lt;p&gt;zotero棣栭〉鈫掑伐鍏封啋鎻掍欢鈫扞nstall Add-on From File鈫掍笂浼犳彃浠剁殑xpi鏂囦欢鈫掗噸鍚簲鐢ㄧ敓鏁?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;DOI Manager&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;鍔熻兘锛氳幏鍙栨枃鐚殑DOI鍙凤紝鍜孲CI-hub閰嶅悎鑾峰彇鏂囩尞鐨勫叏鏂噋df&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;閾炬帴锛歔https://github.com/bwiernik/zotero-shortdoi](&lt;a href="https://github.com/bwiernik/zotero-shortdoi"&gt;https://github.com/bwiernik/zotero-shortdoi&lt;/a&gt; &amp;ldquo;&lt;a href="https://github.com/bwiernik/zotero-shortdoi%22"&gt;https://github.com/bwiernik/zotero-shortdoi&amp;quot;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浣跨敤锛氬彸閿€夋嫨Manage DOIs-&amp;gt;閫夋嫨Get long DOIs&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" src="./%E9%8F%83%E7%8A%B3%E7%88%A3%E6%A3%B0%E6%A6%91MSGarro4z6.png" title="鍙抽敭閫夋嫨Manage DOIs-&amp;gt;閫夋嫨Get long DOIs"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zotero PDF Translate&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;鍔熻兘锛歅DF缈昏瘧&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;閾炬帴锛歔https://github.com/windingwind/zotero-pdf-translate](&lt;a href="https://github.com/windingwind/zotero-pdf-translate"&gt;https://github.com/windingwind/zotero-pdf-translate&lt;/a&gt; &amp;ldquo;&lt;a href="https://github.com/windingwind/zotero-pdf-translate%22"&gt;https://github.com/windingwind/zotero-pdf-translate&amp;quot;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浣跨敤锛氬畨瑁呭悗锛岄€変腑pdf涓渶瑕佺炕璇戝瓧娈靛嵆鍙炕璇?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zotero Scholar Rank &amp;amp; Zotero updateifsE&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;鍔熻兘锛氭煡璇㈡枃鐚瓹CF鍜孲CI绛夌骇锛堟湁鏃跺€欐枃鐚嚜鍔ㄨ瘑鍒敊璇細瀵艰嚧鏌ヨ涓嶅噯锛?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zotero Scholar Rank閾炬帴锛歔https://github.com/SiriusXT/Zotero-Scholar-Rank](&lt;a href="https://github.com/SiriusXT/Zotero-Scholar-Rank"&gt;https://github.com/SiriusXT/Zotero-Scholar-Rank&lt;/a&gt; &amp;ldquo;&lt;a href="https://github.com/SiriusXT/Zotero-Scholar-Rank%22"&gt;https://github.com/SiriusXT/Zotero-Scholar-Rank&amp;quot;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zotero updateifsE閾炬帴锛歔https://github.com/redleafnew/zotero-updateifsE](&lt;a href="https://github.com/redleafnew/zotero-updateifsE"&gt;https://github.com/redleafnew/zotero-updateifsE&lt;/a&gt; &amp;ldquo;&lt;a href="https://github.com/redleafnew/zotero-updateifsE%22"&gt;https://github.com/redleafnew/zotero-updateifsE&amp;quot;&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浣跨敤锛氳瑙佹彃浠堕椤?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="浣跨敤鎶宸"&gt;浣跨敤鎶€宸?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;zotero Connector&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;鍔熻兘锛氫竴娆綠oogle缃戦〉鎻掍欢锛屽彲浠ュ揩閫熷皢缃戦〉涓婄殑鏂囩尞涓嬭浇鍒皕otero锛堣嫢鏃犳硶鐩存帴鑾峰彇pdf锛屽彲浠ヤ娇鐢╠oi manager鍜宻ci hub閰嶅悎鑾峰彇pdf锛?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浣跨敤锛氳胺姝孋hrome搴旂敤鍟嗗簵鎼滅储zotero Connector鈫掑湪鏂囩尞缃戦〉鍚姩鎻掍欢鈫掔偣鍑绘彃浠堕€夋嫨灏嗘枃鐚繚瀛樺埌鎸囧畾鐩綍涓?&lt;/p&gt;
+&lt;p&gt;&lt;img loading="lazy" src="https://abigrookie.github.io/posts/zotero-shi-yong-bi-ji/1669019185158.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;SCI-hub璺緞閫夋嫨&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;鍔熻兘锛歾otero鑾峰彇鍙敤pdf缁忓父鍑虹幇鎵句笉鍒扮殑鎯呭喌锛屽皢sci hub璺緞娣诲姞鍒皕otero涓紝澧炲ぇ鑾峰彇pdf鐨勬垚鍔熺巼锛?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;浣跨敤锛歾otero棣栭〉鈫掔紪杈戔啋棣栭€夐」鈫掗珮绾р啋楂樼骇璁剧疆鈫掕缃紪杈戝櫒鈫掓悳绱㈡杈撳叆&amp;quot;findpdf&amp;quot;鈫掔偣鍑绘浛鎹竴涓嬪唴瀹瑰埌杈撳叆妗嗏啋ok鈫掑浜庢病鏈塸df鐨勬枃鐚彸閿啋鎵惧埌鍙敤鐨刾df&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;name&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;sci-hub&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;method&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;GET&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;url&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;https://sci-hub.st/{doi}&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;mode&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;html&amp;#34;&lt;/span&gt;,&lt;span style="color:#f92672"&gt;&amp;#34;selector&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;#pdf&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;attribute&amp;#34;&lt;/span&gt;:&lt;span style="color:#e6db74"&gt;&amp;#34;src&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;automatic&amp;#34;&lt;/span&gt;:&lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img loading="lazy" src="https://abigrookie.github.io/posts/zotero-shi-yong-bi-ji/1669018079282_9nJpBUXqWu.png"&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
