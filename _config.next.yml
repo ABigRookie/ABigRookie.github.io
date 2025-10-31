@@ -1,0 +1,19 @@
+﻿menu:
+  home: /
+  categories: /categories/
+  tags: /tags/
+  archives: /archives/
+  about: /about/
+
+scheme: Muse
+
+sidebar:
+  position: left
+
+social:
+  GitHub: https://github.com/ABigRookie || fab fa-github
+  Email: mailto:you@example.com || fa-solid fa-envelope
+
+post_meta:
+  updated_at:
+    enable: true
