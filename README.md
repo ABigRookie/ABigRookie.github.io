@@ -1,59 +1,56 @@
-﻿# ABigRookie GitHub Pages Blog
+# ABigRookie Hugo Blog
 
-这个仓库使用 [Hexo](https://hexo.io/) + [hexo-theme-next](https://github.com/next-theme/hexo-theme-next) 构建，用于部署在 GitHub Pages 上。
+站点基于 [Hugo](https://gohugo.io/) + [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 主题构建，并部署在 GitHub Pages。
 
-## 本地开发
+## 开发环境
 
-1. 安装 Node.js（建议 18 LTS+）与 Git。如果刚安装完 Node.js 仍然提示找不到 `node`/`npm`，重新打开终端或把 `C:\Program Files\nodejs` 添加到 `PATH`。
-2. 在仓库根目录执行 `npm install` 安装依赖。
-3. 常用脚本：
+- Hugo Extended v0.152.2（已通过 winget 安装，可运行 `hugo version` 验证）。
+- 推荐安装 Node.js 仅在使用额外前端工具时需要。
 
-   ```bash
-   npm run serve   # 启动本地预览，默认 http://localhost:4000
-   npm run build   # 生成静态文件到 public/
-   npm run clean   # 清理缓存与 public/
-   ```
-
-4. 在 `source/_posts/` 中新增 Markdown 文件撰写文章，例如：
-
-   ```bash
-   npx hexo new post "My New Post"
-   ```
-
-   Hexo 会自动为文章创建同名资源目录，方便放置图片等素材。
-
-## 部署到 GitHub Pages
-
-- `_config.yml` 中已经配置 `hexo-deployer-git`，默认推送到 `gh-pages` 分支。
-- 修改为你自己的 SSH/HTTPS 仓库地址后，执行：
-
-  ```bash
-  npm run deploy
-  ```
-
-  Hexo 会自动执行 `hexo clean && hexo generate && hexo deploy`，并将静态文件推送到配置的分支。
-
-如果你希望使用 GitHub Actions 自动部署，可以参考 Hexo 官方文档或在仓库中新增 workflow（例如 `peaceiris/actions-gh-pages`）。
-
-## 目录结构说明
+## 目录结构
 
 ```
 .
-├── _config.yml           # Hexo 全局配置
-├── _config.next.yml      # NexT 主题配置
-├── package.json          # 依赖与脚本
-├── scaffolds/            # 新建内容模板
-├── source/
-│   ├── _posts/           # 文章目录
-│   ├── about/            # 关于页
-│   ├── categories/       # 分类页
-│   └── tags/             # 标签页
-└── themes/
-    └── next/             # NexT 主题（已拉取最新版源码）
+├── archetypes/           # 新文章模板
+├── assets/css/extended/  # 自定义样式（覆盖 PaperMod）
+├── content/
+│   ├── about/_index.md   # 关于页
+│   └── posts/            # Hugo 页面包，每篇文章一个目录
+├── static/               # 静态资源（favicon、头像等）
+├── themes/PaperMod/      # 主题源码
+└── hugo.toml             # 站点与主题配置
 ```
 
-## 下一步可选操作
+## 常用命令
 
-- 在 `_config.yml` 中补充 `title`、`subtitle`、`description` 等元信息。
-- 编辑 `_config.next.yml` 自定义菜单、社交链接、配色、评论等主题功能。
-- 将原 Gridea 导出的 Markdown 文章迁移至 `source/_posts/`，调整 Front Matter 即可。
+```powershell
+# 本地预览（默认 http://localhost:1313）
+hugo server --buildDrafts --buildFuture
+
+# 生成发布使用的 public/ 静态文件
+hugo
+```
+
+> PaperMod 支持 `assets/css/extended/custom.css` 用于精细化样式调整，本仓库已对排版、配色做近似 lilianweng.github.io 的风格定制。
+
+## 部署到 GitHub Pages
+
+1. 执行 `hugo` 生成 `public/` 静态文件。
+2. 将 `public/` 内容推送到 GitHub Pages 对应分支（例如 `gh-pages`）。
+   - 可使用子仓库、`git worktree` 或 GitHub Actions（参考 PaperMod 文档示例）。
+3. 如果仓库名为 `用户名.github.io`，可以直接让 Pages 指向 `main` 分支的构建结果。
+
+## 新建文章
+
+```powershell
+hugo new posts/my-new-post/index.md
+```
+
+- Hugo 会在 `content/posts/my-new-post/` 创建页面包，图片等资源直接放在同目录即可。
+- Front Matter 默认 `draft: true`，发布前改为 `false`。
+
+## 自定义
+
+- 修改 `hugo.toml` 配置导航、社交链接、主页介绍等。
+- `assets/css/extended/custom.css` 控制整体配色与卡片样式。
+- 如需多语言或评论系统，请参考 PaperMod 文档继续扩展。

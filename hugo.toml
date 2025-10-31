@@ -1,0 +1,76 @@
+baseURL = "https://abigrookie.github.io/"
+languageCode = "zh-cn"
+title = "ABigRookie Blog"
+theme = "PaperMod"
+
+enableEmoji = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "ABigRookie"
+  description = "Document my learning notes."
+  defaultTheme = "auto"
+  DateFormat = "2006-01-02"
+  themeColor = "#2e2e33"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  ShowWordCount = false
+  VisitCount = false
+  disableScrollToTop = false
+  comments = false
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon.ico"
+    favicon32x32 = "favicon.ico"
+    apple_touch_icon = "favicon.ico"
+    safari_pinned_tab = "favicon.ico"
+
+  [params.homeInfoParams]
+    Title = "你好，我是 ABigRookie"
+    Content = "记录人工智能、效率工具与生活琐记，一起保持好奇心。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ABigRookie"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:you@example.com"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  name = "Archive"
+  url = "/archives/"
+  weight = 20
+
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 40
+
+[pagination]
+  pagerSize = 6
