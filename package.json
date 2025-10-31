@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "abigrookie.github.io",
   "version": "0.0.1",
   "private": true,
@@ -11,13 +11,13 @@
     "doctor": "hexo doctor"
   },
   "hexo": {
-    "version": "7.0.0"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^7.0.0",
+    "hexo": "^7.1.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-renderer-ejs": "^2.0.0",
-    "hexo-renderer-markdown-it": "^6.2.0",
+    "hexo-renderer-markdown-it": "^7.1.1",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0"
   }

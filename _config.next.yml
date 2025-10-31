@@ -7,6 +7,17 @@
 
 scheme: Muse
 
+favicon:
+  small: /favicon.ico
+  medium: /favicon.ico
+  apple_touch_icon: /favicon.ico
+
+avatar:
+  enabled: true
+  url: /images/avatar.png
+  rounded: true
+  rotated: false
+
 sidebar:
   position: left
 

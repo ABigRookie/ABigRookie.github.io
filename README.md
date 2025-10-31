@@ -4,9 +4,9 @@
 
 ## 本地开发
 
-1. 安装 Node.js (建议 18 LTS) 与 Git。
+1. 安装 Node.js（建议 18 LTS+）与 Git。如果刚安装完 Node.js 仍然提示找不到 `node`/`npm`，重新打开终端或把 `C:\Program Files\nodejs` 添加到 `PATH`。
 2. 在仓库根目录执行 `npm install` 安装依赖。
-3. 通过以下脚本进行常用操作：
+3. 常用脚本：
 
    ```bash
    npm run serve   # 启动本地预览，默认 http://localhost:4000
