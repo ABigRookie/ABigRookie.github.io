@@ -12,10 +12,8 @@ enableEmoji = true
   tag = "tags"
   category = "categories"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark.renderer]
+  unsafe = true
 
 [params]
   author = "ABigRookie"
@@ -43,11 +41,12 @@ enableEmoji = true
 
   [params.homeInfoParams]
     Title = "你好，我是 ABigRookie"
-    Content = "记录人工智能、效率工具与生活琐记，一起保持好奇心。"
+    Content = "记录人工智能、效率工具与生活笔记，一起保持好奇心。"
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/ABigRookie"
+
   [[params.socialIcons]]
     name = "email"
     url = "mailto:you@example.com"

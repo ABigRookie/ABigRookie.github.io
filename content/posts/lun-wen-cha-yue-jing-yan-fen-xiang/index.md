@@ -1,88 +1,47 @@
----
+﻿---
 title: "论文查阅经验分享"
 date: 2023-11-03 14:41:08
 draft: false
 ---
-# 论文查阅经验分享
 
-## 论文等级分类
+研究生阶段大量时间都花在查阅文献上，这里整理了一些常用的检索与筛选方法，作为自用备忘录，也希望对正在查资料的你有所帮助。
 
-英文论文主要分为期刊论文和会议论文两类，接下来分别介绍这两类论文的等级：
+## 期刊与会议等级
 
-### 期刊论文
+### 期刊
+- **中科院 JCR 分区**：关注最新四分区，一区通常代表该领域顶尖期刊；
+- **影响因子（IF）**：只作为参考指标，结合分区综合判断；
+- **查询工具**：
+  - [LetPub](https://www.letpub.com.cn/index.php?page=journalapp)
+  - [easyScholar](https://chrome.google.com/webstore/detail/easyscholar)
 
-期刊论文主要根据中科院分区进行等级划分，分为一区、二区、三区、四区四类，以一区最优。
+### 会议
+- **CCF 推荐列表**：区分 A/B/C 三档，计算机领域常用；
+- **MyHuiBan**：<https://www.myhuiban.com/>，可以查询会议官网、截稿与录用情况。
 
-同时也可参考《中国计算机学会推荐国际学术会议和期刊目录》，即CCF分类。
+## 文献检索途径
 
-针对期刊论文的等级查看方法主要推荐三种方法。
+### 英文数据库
+- **Web of Science**：适合主题检索与引文分析；
+- **Google Scholar**：覆盖面广，善用关键词订阅与引用排序；
+- **DBLP**：聚焦计算机会议与期刊，可跟踪作者发表轨迹；
+- **AMiner**：提供作者画像与热点统计，支持中文摘要。
 
-#### Letpub查找
+### 中文数据库
+- **中国知网 (CNKI)**、**万方数据**：结合高校图书馆权限使用，注意下载格式与引用规范。
 
-网址：[https://www.letpub.com.cn/index.php?page=journalapp](https://www.letpub.com.cn/index.php?page=journalapp "https://www.letpub.com.cn/index.php?page=journalapp")；
+## 高效阅读的小技巧
 
-搜索方式：期刊名（填入期刊全称）→查询→下拉可以查看期刊信息；
+1. **快速定位**：先读标题、摘要、结论，判断是否值得深入；
+2. **结构化笔记**：记录研究背景、方法、实验与不足，便于后续写 Related Work；
+3. **对比阅读**：挑选同一方向的几篇代表性文章，对方法差异与实验设置进行横向整理；
+4. **善用引用链**：向前追溯经典工作，向后跟踪最新改进；
+5. **定期回顾**：每周或每月梳理一次阅读列表，补完遗漏的论文。
 
-判断指标：影响因子IF（越高越好）、中科院分区（以最新为主，旧版作参考）。
+## 推荐工具
 
-#### easyScholar谷歌插件
+- **Zotero / EndNote**：管理文献与引用，结合浏览器插件批量导入；
+- **Notion / Obsidian**：整理读书笔记或思维导图；
+- **Connected Papers / Inciteful**：以图谱方式发现相关研究。
 
-安装方式：谷歌浏览器扩展程序→搜索easyScholar→安装→启用；
-
-判断指标：免费版只支持中科院旧版分区和影响因子（可以作为快速参考）。
-
-#### 《中国计算机学会推荐国际学术会议和期刊目录》
-
-判断指标：在《中国计算机学会推荐国际学术会议和期刊目录》中搜索期刊名，查看期刊分类
-
-### 会议论文
-
-会议论文主要根据《中国计算机学会推荐国际学术会议和期刊目录》，即CCF分类进行判断。
-
-针对会议论文的等级查看方法主要推荐两种方法。
-
-#### 《中国计算机学会推荐国际学术会议和期刊目录》
-
-判断指标：在《中国计算机学会推荐国际学术会议和期刊目录》中搜索会议名，查看会议分类
-
-#### 会伴查找
-
-网址：[https://www.myhuiban.com/](https://www.myhuiban.com/ "https://www.myhuiban.com/")
-
-搜索方式：搜索框输入会议名→查询
-
-判断指标：主要参考CCF评级
-
-## 论文搜索方法
-
-### 英文论文
-
-英文论文的搜索方法主要推荐四种方式：
-
-#### WebofScience
-
-网址：[https://www.webofscience.com/wos/alldb/basic-search](https://www.webofscience.com/wos/alldb/basic-search "https://www.webofscience.com/wos/alldb/basic-search")
-
-优点：可以根据关键词搜索论文并生成分析报告，适合对于某个领域的发展趋势进行快速调研
-
-#### 谷歌学术
-
-网址：[https://scholar.google.com/](https://scholar.google.com/ "https://scholar.google.com/")
-
-优势：搜索范围广、支持关键词订阅
-
-#### DBLP
-
-网址：[https://dblp.uni-trier.de/](https://dblp.uni-trier.de/ "https://dblp.uni-trier.de/")
-
-优势：支持对单个作者的所有工作罗列，方便跟进某个作者的工作
-
-#### Aminer
-
-网址：[https://www.aminer.org/](https://www.aminer.org/ "https://www.aminer.org/")
-
-优势：翻译了论文摘要，方便快速过论文
-
-### 中文论文
-
-中文论文的搜索方法主要推荐知网、万方等数据库。
+希望这份经验总结能让你的论文检索更高效。如果你有更好的方法，欢迎留言告诉我！

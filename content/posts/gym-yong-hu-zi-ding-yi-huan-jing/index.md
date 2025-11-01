@@ -1,130 +1,117 @@
----
-title: "Gym用户自定义环境"
+﻿---
+title: "Gym 用户自定义环境实践"
 date: 2022-11-23 10:26:05
 draft: false
 ---
-Gym官方教程：[https://www.gymlibrary.dev/content/environment_creation/]('https://www.gymlibrary.dev/content/environment_creation/')
-## 创建自定义环境工程
-- 方法一：git clone gym-examples
-    - 从github上克隆Gym官方示例到本地进行自定义环境编写  
-``` bash
-# git clone from gym-examples
+
+最近在做强化学习相关实验时，需要为 OpenAI Gym 构建一个专用的环境。把整个流程整理如下，方便之后复用，也希望能帮到同样折腾 Gym 的你。
+
+## 1. 官方示例与初始化
+
+- 阅读官方文档：<https://www.gymlibrary.dev/content/environment_creation/>
+- 推荐克隆官方示例：
+
+```bash
 git clone https://github.com/Farama-Foundation/gym-examples
 cd gym-examples
 python -m venv .env
 source .env/bin/activate
 pip install -e .
 ```
-- 方法二：自建环境工程文件
-    - 自建环境工程文件，文件目录应如下（只列出必要文件）
-```bash
-my-gym/
-    setup.py
-    my_gym/
-        __init__.py
-        envs/   
-            __init__.py
-            myenv.py
-        wrappers/
-            __init__.py
-            relative_position.py（不必须）
+
+示例仓库提供了常见的环境骨架，便于参考其注册方式、空间定义与调试流程。
+
+## 2. 按需创建工程结构
+
+如果需要完全自定义，可以建立如下目录：
+
 ```
-## 设计环境
-自定义环境通常只需关注myenv的编写，myenv.py文件的整体框架如下：
+my-gym/
+├── setup.py
+└── my_gym/
+    ├── __init__.py
+    ├── envs/
+    │   ├── __init__.py
+    │   └── myenv.py
+    └── wrappers/
+        ├── __init__.py
+        └── relative_position.py
+```
+
+- `myenv.py`：环境核心逻辑，定义动作空间、状态空间、step/reset/render 等方法；
+- `wrappers/`：可选，存放环境包装器；
+- `setup.py`：使项目能被 `pip install -e .` 安装并在其他工程中引用。
+
+## 3. 关键代码片段
+
 ```python
 import gym
-import numpy as np
-from typing import Optional
-import torch
 from gym import spaces
-import math
+import numpy as np
 
 class MyEnv(gym.Env):
-    def __init__(self, args1, args2, ...):
+    metadata = {"render.modes": ["human"]}
+
+    def __init__(self, config=None):
         super().__init__()
+        self.config = config or {}
+        self.action_space = spaces.Discrete(5)
+        self.observation_space = spaces.Box(
+            low=-1.0, high=1.0, shape=(3,), dtype=np.float32
+        )
+        self.state = None
 
-        self.args1 = args1
-        self.args2 = args2
-        ...
-
-        # define action space
-        # gym doc:
-        # https://www.gymlibrary.dev/api/spaces/
-        self.action_space = spaces.Discrete(ACTION_SPACE)
-
-        # define observation space
-        self.observation_space = spaces.Discrete(OBSERVATION_SPACE)
-
-    # not necessary
-    def _get_obs(self):
-        return obs
-    
-    # not necessary
-    def _get_info(self):
-        return info
-    
-    
-    def step(self, action):
-        # input the action and step to next state
-        # return the next_obs, reward, done and info
-        return obs, reward, done, {}
-
-    def reset(self, seed=None, options=None):
-        # set ramdom seed if need
+    def reset(self, *, seed=None, options=None):
         super().reset(seed=seed)
-        # reset the start observation and some parameters
-        self.state = START_STATE
-        self.paras1= PARAS1
-        ...
-        # return the start observation and info
-        return observation, info
+        self.state = np.zeros(3, dtype=np.float32)
+        info = {"episode": 0}
+        return self.state, info
 
-    def render(self, mode='human', close=False):
-        # render the environments
-        # can simply print some infomation of your training process
-        print(f'Step:{self.count}')
-        print(f'State:{self.state}')
+    def step(self, action):
+        # 根据动作更新状态，这里仅作示意
+        self.state = np.clip(self.state + (action - 2) * 0.1, -1, 1)
+        reward = -np.linalg.norm(self.state)
+        terminated = bool(np.linalg.norm(self.state) < 0.1)
+        truncated = False
+        info = {}
+        return self.state, reward, terminated, truncated, info
+
+    def render(self):
+        print(f"state: {self.state}")
 ```
 
-## 修改配置文件
-### 注册环境
-- 为了保证Gym能够检测到用户自定义的环境，需要在/my-gym/my_gym/\__init__.py中对环境进行注册
+## 4. 环境注册与安装
+
+在 `my_gym/__init__.py` 中注册：
+
 ```python
 from gym.envs.registration import register
 
 register(
-    # the id of your env, which can be used to during environment creation
-    id="MyEnv",
-    # the entry point is the path of your env
-    entry_point="my_gym.envs:myenv",
-    # other parameters can be found at 
-    # https://www.gymlibrary.dev/content/environment_creation/
+    id="MyEnv-v0",
+    entry_point="my_gym.envs:MyEnv",
 )
 ```
-- 同时在/my-gym/my_gym/envs/\__init__.py下需要如下设置
-```python
-from my_gym.envs.myenv import MyEnv
-```
-### 创建包
-- 最后一步将环境工程文件构建为一个python包，需要配置/my-gym/setup.py，简单示例如下
-```python
-from setuptools import setup
 
-setup(
-    name="my_gym",
-    version="0.0.1",
-    install_requires=["gym==0.26.0", "pygame==2.1.0"],
-)
-```
-### 安装包
-- 在需要安装自定义环境的python环境下，通过pip安装自定义环境
+随后执行：
+
 ```bash
-pip install -e USER_DEFINE_ENV_PATH
+pip install -e .
 ```
-### 加载环境
+
+安装完成后即可在其它项目中：
+
 ```python
-import my_gym
 import gym
-env = gym.make('MyEnv')
+import my_gym
+
+env = gym.make("MyEnv-v0")
 ```
-到此，一个简单的用户自定义环境就配置完成啦🎉🎉🎉
+
+## 5. 调试建议
+
+1. 使用 `env.reset()` / `env.step()` 单步验证奖励、终止条件等逻辑。
+2. 为环境设置随机种子，确保实验结果可复现。
+3. 如需可视化，可以简单打印训练过程指标或接入 `matplotlib`、`pygame` 等工具。
+
+希望这份记录能帮助你快速搭建出自己的强化学习环境。如果有新的经验，欢迎继续补充完善。
