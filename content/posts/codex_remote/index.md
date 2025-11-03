@@ -60,7 +60,7 @@ tags: ["remote", "proxy", "codex", "vscode"]
 
 ## 第四步：VSCode Remote-SSH 设置
 在本地VScode中`Ctrl+Shift+P`打开命令面板，输入 `Open SSH Configuration File`，在弹出的列表里选择当前用户的 `~/.ssh/config`（Windows 可见 `C:\Users\<用户名>\.ssh\config`），修改如下
-   ```json
+   ```bash
     Host Your-server-name
     HostName Your-server-ip
     User Username
