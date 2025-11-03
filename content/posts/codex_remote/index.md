@@ -25,7 +25,7 @@ tags: ["remote", "proxy", "codex", "vscode"]
 
    ```bash
    ssh -p <your-server-port> \
-       -R 7897:127.0.0.1:7890 \
+       -R 7890:127.0.0.1:7890 \
        -o ServerAliveInterval=60 \
        your-user-name@your-server-ip
    ```
