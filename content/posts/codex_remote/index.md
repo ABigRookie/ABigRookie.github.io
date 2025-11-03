@@ -59,6 +59,15 @@ tags: ["remote", "proxy", "codex", "vscode"]
 若输出包含 `HTTP/1.1 200 Connection established` 或 `HTTP/2 200`，说明代理成功。
 
 ## 第四步：VSCode Remote-SSH 设置
+在本地VScode中`Ctrl+Shift+P`打开命令面板，输入 `Open SSH Configuration File`，在弹出的列表里选择当前用户的 `~/.ssh/config`（Windows 可见 `C:\Users\<用户名>\.ssh\config`），修改如下
+   ```json
+    Host Your-server-name
+    HostName Your-server-ip
+    User Username
+    RemoteForward 7890 127.0.0.1:7890
+    ServerAliveInterval 60
+   ```
+
 
 为了让 VSCode 在连接服务器时自动做 RemoteForward，并固定端口，需要在本地 VSCode 的 `settings.json` 添加：
 
